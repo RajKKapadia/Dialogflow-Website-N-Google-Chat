@@ -7,7 +7,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.routes.health_route import router as health_router
 from src.routes.widget_route import router as widget_router
 from src.routes.chat_route import router as chat_router
-from src import config
 
 app = FastAPI()
 
